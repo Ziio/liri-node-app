@@ -2,7 +2,8 @@ require("dotenv").config();
 
 var Spotify = require("node-spotify-api");
 var spotify = new Spotify({id:process.env.SPOTIFY_ID, secret:process.env.SPOTIFY_SECRET});
-var client = new Twitter(keys.twitter); //Still unable to get a API
+// var client = new Twitter(keys.twitter); 
+//Still unable to get a API
 var request = require("request");
 var key = require("./keys")
 var fs = require("fs");
